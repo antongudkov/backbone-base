@@ -10,7 +10,4 @@ module.exports = (grunt) ->
     else if target is 'production'
       grunt.task.run [
         'connect:production'
-        'easymock'
-        'configureProxies:server'
-        'watch:production'
       ]

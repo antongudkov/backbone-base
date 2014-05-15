@@ -26,7 +26,6 @@ module.exports = (grunt) ->
 
   grunt.registerTask 'production', [
     'build:production'
-    'server:production'
   ]
 
   grunt.registerTask 'default', [
